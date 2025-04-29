@@ -16,7 +16,7 @@ main {
 }
 
 .header {
-  background: rgba(25, 25, 35, 0.95);
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,13 +48,13 @@ main {
   border-radius: 15px;
   text-align: center;
   font-size: 1.2rem;
-  background: rgba(40, 40, 50, 0.6);
+  background: rgba(30, 20, 50, 0.6);
   backdrop-filter: blur(12px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 .footer {
-  background: rgba(25, 25, 35, 0.9);
+  background: rgba(25, 25, 25, 0.9);
   text-align: center;
   font-size: 0.8rem;
   padding: 10px 0;
