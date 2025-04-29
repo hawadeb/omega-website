@@ -27,6 +27,13 @@ main {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+.panel-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+}
 
 .panel {
   width: 200px;
