@@ -28,6 +28,30 @@ main {
   text-transform: uppercase;
 }
 
+.panel {
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  margin: 15px;
+  background: rgba(50, 50, 60, 0.8);
+  border-radius: 20px;
+  color: #e0e0e0;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.2s ease, background 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.panel:hover {
+  background: rgba(90, 0, 140, 0.9);
+  transform: translateY(-5px);
+  color: #fff;
+}
+
+
 .header a {
   color: #e0e0e0;
   text-decoration: none;
