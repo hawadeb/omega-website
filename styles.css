@@ -6,12 +6,13 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  background: linear-gradient(to bottom right, #4b0082, #2f4f4f); 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: #fff;
 }
+
 
 main {
   display: flex;
@@ -20,7 +21,7 @@ main {
 }
 
 .header, .footer {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(19, 19, 19, 0.8)
   backdrop-filter: blur(15px);
   padding: 30px;
   text-align: center;
