@@ -3,6 +3,9 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to bottom right, #4b0082, #0b0b00); 
   color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -27,6 +30,9 @@ main {
   border-radius: 10px;
   text-align: center;
   font-size: 1.1rem;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 button {
