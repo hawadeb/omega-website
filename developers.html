@@ -12,13 +12,43 @@
 <body>
 
 <main>
+    <audio id="hawa_music" style="display:none;">
+        <source src="assets/songs/family-ties.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="catlicky_music" style="display:none;">
+        <source src="assets/songs/LOTP.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="kfj_music" style="display:none;">
+        <source src="assets/songs/sexynilers.mp3" type="audio/mpeg">
+    </audio>
+    
     <div class="header">
         <a href="index.html">Home</a>
         <a href="developers.html">Developers</a>
         <a href="hoa.html">Hall of Skids</a>
     </div>
-    <div class="content">
-
+    <section class="content">
+        <h2>Developer</h2>
+        <div class="panel-grid">
+            <div onpointerover=HawaPlayMusic() onpointerleave=StopHover() class="dev-panel">
+                <img src="https://cdn.discordapp.com/avatars/1355278929736237117/84300d5d4dee7b5aa6540e5e1e345a6a.png?" alt="dev" />
+                <h2>Hawa</h2>
+                <h3>"you on thin ice nigga"</h3>
+            </div>
+            <div onpointerover=CatlickerPlayMusic() onpointerleave=StopHover() class="dev-panel">
+                <img src="https://cdn.discordapp.com/avatars/584511800687722508/2163cf3b3ff7816a9cccb76c5b6e14a1.png?" alt="dev" />
+                <h2>Catlicker</h2>
+                <h3>"ratted by omega menu"</h3>
+            </div>
+            <div onpointerover=KfjPlayMusic() onpointerleave=StopHover() class="dev-panel">
+                <img src="https://cdn.discordapp.com/avatars/1131984140321960068/3ea7bf0540025e3f7db1557e5e0c9695.png?" alt="dev" />
+                <h2>Kfj</h2>
+                <h3>"baby dk baby dk"</h3>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        &copy; 2025 Omega. All rights reserved.
     </div>
 </main>
 
