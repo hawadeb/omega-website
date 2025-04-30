@@ -14,7 +14,7 @@ function PlayMusic(id){
 }
 
 function StopMusic(id){
-    if (playing)
+    if (!playing)
         return;
     
     const _music = document.getElementById(id);
