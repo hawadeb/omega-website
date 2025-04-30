@@ -21,7 +21,7 @@ function KfjPlayMusic() {
 
     _music.play();
     playing = true;
-}
+} 
 function HawaPlayMusic() {
     if (playing) 
         return;
