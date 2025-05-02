@@ -43,27 +43,28 @@
       <source src="assets/songs/LOTP.mp3" type="audio/mpeg">
     </audio>
     <audio id="darktoughts_music" style="display:none;">
-      <source src="assets/songs/Lil Tecca - Dark Thoughts (Official Audio).mp3" type="audio/mpeg">
+      <source src="assets/songs/darkthoughts.mp3" type="audio/mpeg">
     </audio>
 
   </main>
 
   <script>
-    function playMusic(track) {
-      const music = document.getElementById(`${track}_music`);
-      if (music) {
-        music.play();
-      }
-    }
-
-    function stopMusic(track) {
-      const music = document.getElementById(`${track}_music`);
-      if (music) {
+  function playMusic(track) {
+    const allTracks = ['ties', 'lotp', 'darkthoughts'];
+    allTracks.forEach((t) => {
+      const music = document.getElementById(`${t}_music`);
+      if (music && !music.paused) {
         music.pause();
         music.currentTime = 0;
       }
+    });
+
+    const music = document.getElementById(`${track}_music`);
+    if (music) {
+      music.play();
     }
-  </script>
+  }
+</script>
 
   <script src="assets/script.js"></script>
 </body>
