@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>OMEGA | Home</title>
+  <link rel="icon" href="assets/icon.webp" type="image/webp" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <div class="header">
+      yeeeesh
+    </div>
+
+    <section class="content">
+      <h2>Omega jams!</h2>
+      <p>Click to play any:</p>
+      <div class="panel-grid">
+        <div onclick="playMusic('ties')" class="dev-panel">
+          <h3>Family Ties</h3>
+        </div>
+        <div onclick="playMusic('lotp')" class="dev-panel">
+          <h3>life of the party</h3>
+        </div>
+
+       <div onclick="playMusic('darkthoughts')" class="dev-panel">
+          <h3>dark thoughts</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      &copy; 2025 Omega. All rights reserved.
+    </footer>
+
+  
+    <audio id="ties_music" style="display:none;">
+      <source src="assets/songs/family-ties.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="lotp_music" style="display:none;">
+      <source src="assets/songs/LOTP.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="darktoughts_music" style="display:none;">
+      <source src="assets/songs/Lil Tecca - Dark Thoughts (Official Audio).mp3" type="audio/mpeg">
+    </audio>
+
+  </main>
+
+  <script>
+    function playMusic(track) {
+      const music = document.getElementById(`${track}_music`);
+      if (music) {
+        music.play();
+      }
+    }
+
+    function stopMusic(track) {
+      const music = document.getElementById(`${track}_music`);
+      if (music) {
+        music.pause();
+        music.currentTime = 0;
+      }
+    }
+  </script>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
