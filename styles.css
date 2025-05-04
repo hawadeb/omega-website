@@ -69,10 +69,13 @@ main {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
 }
 
+.crakpanel:hover{
+  background: rgba(90, 0, 140, 0.9);
+  transform: translateY(-5px);
+}
 .panel:hover {
   background: rgba(90, 0, 140, 0.9);
   transform: translateY(-5px);
-  color: #fff;
 }
 
 .hoa-panel img {
