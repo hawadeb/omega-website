@@ -1,6 +1,7 @@
 const hawa      ="hawa_music";
 const catlicky  ="catlicky_music";
 const kfj       ="kfj_music";
+const entity    ="entity_music";
 
 let playing = false;
 

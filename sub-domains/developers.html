@@ -5,25 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>OMEGA | Developers</title>
-    <link rel="icon" href="assets/icon.webp" type="image/webp"/>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="../assets/images/icon.webp" type="image/webp"/>
+    <link rel="stylesheet" href="../styles.css" />
 
 </head>
 <body>
 
 <main>
     <audio id="hawa_music" style="display:none;">
-        <source src="assets/songs/family-ties.mp3" type="audio/mpeg">
+        <source src="../assets/songs/super mario chodes.mp3" type="audio/mpeg">
     </audio>
-     <audio id="catlicky_music" style="display:none;">
-        <source src="assets/songs/LOTP.mp3" type="audio/mpeg">
+    <audio id="catlicky_music" style="display:none;">
+        <source src="../assets/songs/LOTP.mp3" type="audio/mpeg">
     </audio>
-    <audio id="kfj_music" style="display:none;"> 
-        <source src="assets/songs/sexynilers.mp3" type="audio/mpeg">
+    <audio id="entity_music" style="display:none;">
+        <source src="../assets/songs/Falling.mp3" type="audio/mpeg">
     </audio>
-    
+    <audio id="kfj_music" style="display:none;">
+        <source src="../assets/songs/sexynilers.mp3" type="audio/mpeg">
+    </audio>
+
     <div class="header">
-        <a href="index.html">Home</a>
+        <a href="../index.html">Home</a>
         <a href="developers.html">Developers</a>
         <a href="hoa.html">Hall of Skids</a>
     </div>
@@ -31,22 +34,22 @@
         <h2>Developers</h2>
         <div class="panel-grid">
             <div onpointerover=PlayMusic(hawa) onpointerleave=StopMusic(hawa) class="dev-panel">
-                <img src="https://cdn.discordapp.com/avatars/1355278929736237117/84300d5d4dee7b5aa6540e5e1e345a6a.png?" alt="dev" />
+                <img src="../assets/images/dev-pfps/hawa.png" alt="dev" />
                 <h2>Hawa</h2>
                 <h3>"you on thin ice nigga"</h3>
             </div>
             <div onpointerover=PlayMusic(catlicky) onpointerleave=StopMusic(catlicky) class="dev-panel">
-                <img src="https://cdn.discordapp.com/avatars/584511800687722508/f202b05e789bb52a643444e16d7b148b.png?" alt="dev" />
+                <img src="../assets/images/dev-pfps/catlicker.png" alt="dev" />
                 <h2>Catlicker</h2>
                 <h3>"ratted by omega menu"</h3>
             </div>
-            <div class="dev-panel">
-                <img src="https://cdn.discordapp.com/avatars/1310736152814157917/87d50f91cf53d797e99fd0ee67eb642a.webp" alt="dev" />
+            <div onpointerover=PlayMusic(entity) onpointerleave=StopMusic(entity) class="dev-panel">
+                <img src="../assets/images/dev-pfps/entity.png" alt="dev" />
                 <h2>Entity</h2>
                 <h3>"You done crossed the line nigga"</h3>
             </div>
             <div onpointerover=PlayMusic(kfj) onpointerleave=StopMusic(kfj) class="dev-panel">
-                <img src="https://cdn.discordapp.com/avatars/1131984140321960068/3ea7bf0540025e3f7db1557e5e0c9695.png?" alt="dev" />
+                <img src="../assets/images/dev-pfps/kfj.png" alt="dev" />
                 <h2>Kfj</h2>
                 <h3>"baby dk baby dk"</h3>
             </div>
@@ -57,6 +60,6 @@
     </div>
 </main>
 
-<script src="assets/script.js"></script>
+<script src="../assets/script.js"></script>
 </body>
 </html>
