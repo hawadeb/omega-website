@@ -71,7 +71,7 @@ main {
 
 .crakpanel:hover{
   background: rgba(90, 0, 140, 0.9);
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.05);
 }
 .panel:hover {
   background: rgba(90, 0, 140, 0.9);
