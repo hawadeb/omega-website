@@ -16,14 +16,22 @@
 .section-title {
     font-weight: bold;
     margin-top: 20px;
+    
+    align-content: center;
+    align-text: center;
 }
 
 h1, h2 {
     color: white;
+    
+    text-align: center;
+    align-content: center;
 }
 p {
     color: white;
-    margin-bottom: 15px;
+    
+    align-content: center;
+    text-align: center;
 }
 
 .background-video {
